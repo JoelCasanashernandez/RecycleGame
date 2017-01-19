@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Let's recycle!</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="script/jquery-ui-1.12.1/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/toastr.min.css">
+	<!--JQuery-->
+	<script src="script/jquery.js"></script>
+	<!--JQueryUI -->
+	<script src="script/jquery-ui-1.12.1/jquery-ui.js"></script>
+	<!--Inicialization Script -->
+	<script src="script/script.js"></script>
+	<!-- Toastr -->
+	<script src="script/toastr.min.js"></script>
+	<!-- Game Script -->
+	<script src="script/recycleGame.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<div id="gameBox"></div>
+	</div>
+	<!--Dialog boxes -->
+	<div id="dialogName" title="Recycle Game" class="dialogHide">
+		<p class="messageForm">What is your name?</p>
+		<input type="text" maxlength="100" id="playerName" placeholder="Write your name">
+	</div>
+	<div id="dialogDifficulty" title="Recycle Game" class="dialogHide">
+		<p>Choose a difficulty.</p>
+	</div>
+</body>
+</html>
