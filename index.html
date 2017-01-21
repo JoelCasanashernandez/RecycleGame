@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>Let's recycle!</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="script/jquery-ui-1.12.1/jquery-ui.css">
-	<link rel="stylesheet" type="text/css" href="css/toastr.min.css">
+	<link rel="stylesheet" type="text/css" href="style/toastr.min.css">
 	<!--JQuery-->
 	<script src="script/jquery.js"></script>
 	<!--JQueryUI -->
@@ -18,8 +18,15 @@
 
 </head>
 <body>
-	<div class="container">
-		<div id="gameBox"></div>
+	<div class="header">
+		<h1>Let's recycle!</h1>
+	</div>
+	<div class="content">
+		<div id="gameBox">
+			<div id="binBox">
+				
+			</div>
+		</div>
 	</div>
 	<!--Dialog boxes -->
 	<div id="dialogName" title="Recycle Game" class="dialogHide">
@@ -28,6 +35,9 @@
 	</div>
 	<div id="dialogDifficulty" title="Recycle Game" class="dialogHide">
 		<p>Choose a difficulty.</p>
+	</div>
+	<div id="dialogNewGame" title="You have won!" class="dialogHide">
+		<p>Do you want to play again?</p>
 	</div>
 </body>
 </html>
